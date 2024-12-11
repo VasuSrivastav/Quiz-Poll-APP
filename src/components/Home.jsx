@@ -11,12 +11,12 @@ const Home = () => {
   const navigate = useNavigate();
   const [popup, setPopup] = useState(false);
   const [userName, setUserName] = useState(""); //input field data
-  const { role, name ,setUser } = useStore();
+  const { role, name, setUser } = useStore();
   // const {user, name, setUserType} = useStore();
 
   // work as auth
   useEffect(() => {
-    // as i am using zustand so i dont need to check the local storage and i am setuser in handleadmin and handleuser 
+    // as i am using zustand so i dont need to check the local storage and i am setuser in handleadmin and handleuser
     // if (localStorage.getItem("quizStore")) {
     //   if (JSON.parse(localStorage.getItem("quizStore")).role === "admin") {
     //     navigate("/admin");
@@ -38,7 +38,6 @@ const Home = () => {
     if (role === "user" && name !== "") {
       navigate("/user");
     }
-
   }, []);
 
   const HandleAdmin = (e) => {
@@ -92,7 +91,10 @@ const Home = () => {
         // },
       }}
     >
-      This is Quiz app with timer real time .
+      This is Quiz app with timer real time .{" "}
+      <span>
+        Please Wait, On first time load its takes 50sec as deploy on render
+      </span>
       <Box
         component="section"
         sx={{
