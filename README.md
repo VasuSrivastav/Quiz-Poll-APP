@@ -1,10 +1,10 @@
 <h1 align="center">Quiz / Polling Web App📜 </h1>
 
 # Live-Preview
-https://quiz-poll-app.vercel.app
+https://quiz-poll-app-backend.onrender.com
 
 <!-- ![Demo App](/frontend/src/assets/uber.gif) -->
-![Demo App](/frontend/src/assets/)
+![Demo App](/frontend/src/assets/quiz-polling-webApp.mp4)
 
 
 
