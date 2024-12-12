@@ -93,7 +93,7 @@ const Home = () => {
     >
       This is Quiz app with timer real time .{" "}
       <span>
-        Please Wait, On first time load its takes 50sec as deploy on render
+        Please Wait, On first time load its takes 50sec as deploy on render <Link href="https://quiz-poll-app.vercel.app/">Check Server Running...Lood after 50sec.</Link>
       </span>
       <Box
         component="section"
