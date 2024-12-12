@@ -1,6 +1,7 @@
 <h1 align="center">Quiz / Polling Web App📜 </h1>
 
-![Live Preview](https://quiz-poll-app.vercel.app)
+# Live-Preview
+https://quiz-poll-app.vercel.app
 
 <!-- ![Demo App](/frontend/src/assets/uber.gif) -->
 ![Demo App](/frontend/src/assets/)
@@ -9,6 +10,7 @@
 
 About This Project:
 
+-   🌐RealTime Multiplayer Quiz/ Polling Platform
 -   🔧 Backend Seperated-(express, dotenv, crypto, cors, cookie-parser, bcrypt, axios, express-validator, socket.io )
 -   🗄️ Database Not Needed-(NO Question is saved.)
 -   🚪 Logout Endpoint
@@ -49,7 +51,7 @@ npm run dev
 - contact me if needed.
 
 ```shell
-![REPO LINK](https://github.com/VasuSrivastav/Quiz-Poll-APP-Backend)
+[REPO LINK](https://github.com/VasuSrivastav/Quiz-Poll-APP-Backend)
 ```
 
 ### I'll see you in the next one! 🚀

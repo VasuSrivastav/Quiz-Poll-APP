@@ -4,7 +4,7 @@ import PersonAddAltTwoToneIcon from "@mui/icons-material/PersonAddAltTwoTone";
 // import SendIcon from "@mui/icons-material/Send";
 
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useStore } from "../store/zustand";
 
 const Home = () => {
@@ -89,13 +89,13 @@ const Home = () => {
         // '&:hover': {
         //   bgcolor: 'primary.dark',
         // },
-      }}
-    >
-      This is Quiz app with timer real time .{" "}
-      <span>
-        Please Wait, On first time load its takes 50sec as deploy on render <Link href="https://quiz-poll-app.vercel.app/">Check Server Running...Lood after 50sec.</Link>
-      </span>
-      <Box
+            }}
+          >
+            This is Quiz app with timer real time.
+            <span>
+        Please Wait, <Link href="https://quiz-poll-app.vercel.app/" target="_blank">Check Server Running... On first time load its takes 50sec as deploy on render</Link>
+            </span>
+            <Box
         component="section"
         sx={{
           p: 2,
