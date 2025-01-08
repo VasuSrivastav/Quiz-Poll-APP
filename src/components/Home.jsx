@@ -93,7 +93,7 @@ const Home = () => {
           >
             This is Quiz app with timer real time.
             <span>
-        Please Wait, <Link href="https://quiz-poll-app-backend.onrender.com/" target="_blank">Check Server Running... or not, On first time load its takes 50sec as deploy on render</Link>
+        Please Wait, <Link to="https://quiz-poll-app-backend.onrender.com" target="_blank">Check Server Running... or not, On first time load its takes 50sec as deploy on render and off after 15 mins of inactivity</Link>
             </span>
             <Box
         component="section"
